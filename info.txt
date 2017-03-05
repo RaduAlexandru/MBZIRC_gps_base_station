@@ -1,0 +1,1 @@
+rosbag record /dji_sdk/compass /dji_sdk/global_position /dji_sdk/velocity /dji_sdk/acceleration /mbzirc_msg_bridge/gps_localization /mbzirc_msg_bridge/localization /mbzirc_msg_bridge/odom_with_allo_velocity /mbzirc_msg_bridge/odometry /tf /tf_static /base_station/reference_pose /initialpose

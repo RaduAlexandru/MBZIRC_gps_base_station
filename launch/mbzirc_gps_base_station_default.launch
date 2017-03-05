@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="gps_base_station" type="base_station" name="base_station" output="screen">
+    <!-- use either lat, lon, height, OR xyz to define the field center -->
+    <!-- <param name="lat" value="50.7057" /> -->
+    <!-- <param name="lon" value="7.1293" /> -->
+    <!-- <param name="height" value="0." /> -->
+     <param name="x" value="10." /> -->
+     <param name="y" value="0." /> -->
+     <param name="z" value="0." />
+    <!--<param name="yaw_deg" value="33.5" /> [> Line in courtyard <]-->
+    <param name="yaw_deg" value="0." />
+  </node>
+</launch>
